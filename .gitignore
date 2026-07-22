@@ -1,0 +1,8 @@
+.env
+.env.*
+!.env.example
+node_modules/
+coverage/
+partner-kits/*.json
+partner-kits/*.md
+!partner-kits/README.md

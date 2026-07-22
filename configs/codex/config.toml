@@ -1,0 +1,12 @@
+# Copy this block to ~/.codex/config.toml.
+# Keep the API key in the LLMHUB_API_KEY environment variable.
+model_provider = "llmhub"
+model = "gpt-5.6-terra"
+
+[model_providers.llmhub]
+name = "LLMHub"
+base_url = "https://llmhub.vip/v1"
+wire_api = "responses"
+requires_openai_auth = false
+env_key = "LLMHUB_API_KEY"
+supports_websockets = false

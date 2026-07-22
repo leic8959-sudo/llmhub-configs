@@ -1,0 +1,20 @@
+{
+  "name": "llmhub-configs",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Russian integration recipes and diagnostics for OpenAI-compatible APIs",
+  "type": "module",
+  "bin": {
+    "llm-api-doctor": "./bin/llm-api-doctor.mjs"
+  },
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "doctor:help": "node bin/llm-api-doctor.mjs --help",
+    "partner:help": "node scripts/generate-partner-kit.mjs --help",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}

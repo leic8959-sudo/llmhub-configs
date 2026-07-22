@@ -1,0 +1,19 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "llmhub/gpt-5.6-terra",
+  "provider": {
+    "llmhub": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "LLMHub",
+      "options": {
+        "baseURL": "https://llmhub.vip/v1",
+        "apiKey": "{env:LLMHUB_API_KEY}"
+      },
+      "models": {
+        "gpt-5.6-terra": {
+          "name": "GPT-5.6 Terra"
+        }
+      }
+    }
+  }
+}
