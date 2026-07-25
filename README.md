@@ -1,6 +1,6 @@
 # LLMHub Configs
 
-> **Начать работу с LLMHub:** [создать аккаунт и получить $0.50 бесплатного API-кредита](https://llmhub.vip/sign-up?utm_source=github&utm_medium=partner&utm_campaign=integration-kit) · [цены](https://llmhub.vip/pricing) · [документация](https://llmhub.vip/docs)
+> **Начать работу с LLMHub:** [создать аккаунт и получить $0.50 бесплатного API-кредита](https://llmhub.vip/sign-up?utm_source=github&utm_medium=partner&utm_campaign=github-configs) · [цены](https://llmhub.vip/pricing) · [документация](https://llmhub.vip/docs)
 
 Готовые рецепты подключения OpenAI-совместимого API к инструментам
 разработчика и безопасная диагностика соединения. Репозиторий рассчитан на
