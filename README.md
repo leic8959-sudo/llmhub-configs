@@ -6,6 +6,26 @@
 разработчика и безопасная диагностика соединения. Репозиторий рассчитан на
 пользователей, которым важен работающий запрос, а не рекламное описание.
 
+## Первый запрос за 60 секунд
+
+1. [Создайте аккаунт](https://llmhub.vip/sign-up?utm_source=github&utm_medium=partner&utm_campaign=github-configs) и войдите в консоль.
+2. Откройте [API Keys](https://llmhub.vip/keys), создайте ключ и сохраните его локально.
+3. Получите доступную модель:
+
+```bash
+curl https://llmhub.vip/v1/models \
+  -H "Authorization: Bearer $LLMHUB_API_KEY"
+```
+
+4. Подставьте `MODEL_ID` из ответа и отправьте первый запрос:
+
+```bash
+curl https://llmhub.vip/v1/chat/completions \
+  -H "Authorization: Bearer $LLMHUB_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"model":"MODEL_ID","messages":[{"role":"user","content":"Say hello in one sentence."}]}'
+```
+
 ## Что внутри
 
 | Инструмент | Рецепт | Секрет хранится |

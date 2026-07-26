@@ -2,8 +2,8 @@
 
 ## Быстрый путь
 
-1. [Создайте аккаунт LLMHub](https://llmhub.vip/sign-up?utm_source=github&utm_medium=partner&utm_campaign=codex-guide) и получите API-ключ в кабинете.
-2. Установите Codex CLI и скопируйте готовый блок конфигурации из configs/codex/config.toml в ~/.codex/config.toml.
+1. [Создайте аккаунт LLMHub](https://llmhub.vip/sign-up?utm_source=github&utm_medium=partner&utm_campaign=codex-guide), войдите в консоль и откройте [API Keys](https://llmhub.vip/keys).
+2. Создайте API-ключ, затем установите Codex CLI и скопируйте готовый блок конфигурации из configs/codex/config.toml в ~/.codex/config.toml.
 3. Перед запуском Codex задайте ключ только в текущем окружении:
 
 PowerShell:
