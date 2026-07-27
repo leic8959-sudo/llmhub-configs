@@ -1,14 +1,18 @@
-# LLMHub Configs
+# LLMHub Configs: Codex, Cursor, Cline, Dify and n8n
 
-> **Начать работу с LLMHub:** [создать аккаунт и получить $0.50 бесплатного API-кредита](https://llmhub.vip/sign-up?utm_source=github&utm_medium=partner&utm_campaign=github-configs) · [цены](https://llmhub.vip/pricing) · [документация](https://llmhub.vip/docs)
+> **Первый запрос за 60 секунд:** [создать аккаунт и получить $0.50 бесплатного API-кредита](https://llmhub.vip/sign-up?utm_source=github&utm_medium=partner&utm_campaign=github-configs) · [цены](https://llmhub.vip/pricing) · [документация](https://llmhub.vip/docs)
 
 Готовые рецепты подключения OpenAI-совместимого API к инструментам
-разработчика и безопасная диагностика соединения. Репозиторий рассчитан на
-пользователей, которым важен работающий запрос, а не рекламное описание.
+разработчика и безопасная диагностика соединения. Сохраняйте привычный клиент,
+указывайте `https://llmhub.vip/v1`, создавайте ключ и проверяйте первый запрос.
+
+Репозиторий рассчитан на пользователей, которым нужен работающий запрос, а не
+рекламное описание: каждый рецепт показывает, где указать Base URL, API key и
+модель.
 
 ## Первый запрос за 60 секунд
 
-1. [Создайте аккаунт](https://llmhub.vip/sign-up?utm_source=github&utm_medium=partner&utm_campaign=github-configs) и войдите в консоль.
+1. [Создайте аккаунт и получите тестовый кредит](https://llmhub.vip/sign-up?utm_source=github&utm_medium=partner&utm_campaign=github-configs), затем войдите в консоль.
 2. Откройте [API Keys](https://llmhub.vip/keys), создайте ключ и сохраните его локально.
 3. Получите доступную модель:
 
@@ -25,6 +29,10 @@ curl https://llmhub.vip/v1/chat/completions \
   -H "Content-Type: application/json" \
   -d '{"model":"MODEL_ID","messages":[{"role":"user","content":"Say hello in one sentence."}]}'
 ```
+
+Если вы подключаете конкретный инструмент, сразу переходите к нужному рецепту:
+Codex CLI, Cursor, Cline/Roo Code, OpenCode, Dify или n8n. В каждом рецепте
+используется тот же Base URL и ключ из кабинета.
 
 ## Что внутри
 
